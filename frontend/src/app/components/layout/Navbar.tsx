@@ -70,7 +70,7 @@ export function Navbar() {
             <img 
               src="/Foundation_logo2.png" 
               alt="WombTo18 Foundation" 
-              className="h-12 w-auto object-contain"
+              className="h-14 w-auto object-contain"
             />
           </Link>
 
