@@ -151,7 +151,7 @@ export class AuthService {
     if (!dbAdmin.isActive) return { error: 'This admin account has been deactivated.', statusCode: 401 };
 
     const passwordValid = await bcrypt.compare(password, dbAdmin.password as string);
-    if (!passwordValid) return { error: 'Invalid admin credentials.', statusCode: 401 };
+    if (!passwordValid) return null; // wrong password — fall through to volunteer/donor login
 
     console.log(`[AuthService] State admin login successful for ${normalizedEmail} (state: ${dbAdmin.state as string})`);
 

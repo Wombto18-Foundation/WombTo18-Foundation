@@ -173,7 +173,7 @@ let AuthService = class AuthService {
             return { error: 'This admin account has been deactivated.', statusCode: 401 };
         const passwordValid = await bcrypt.compare(password, dbAdmin.password);
         if (!passwordValid)
-            return { error: 'Invalid admin credentials.', statusCode: 401 };
+            return null;
         console.log(`[AuthService] State admin login successful for ${normalizedEmail} (state: ${dbAdmin.state})`);
         const payload = {
             sub: dbAdmin.id,

@@ -57,7 +57,7 @@ export function VolunteerLogin() {
         // Send to OTP page locally
         navigate("/donor/verify-otp", { state: { identifier: emailLogin, role: 'VOLUNTEER', requiresMobileOtp: res.requiresMobileOtp, eligible: res.eligible ?? false } });
       } else {
-        toast.error(res.message || "Invalid response from server");
+        toast.error(res.error || res.message || "Invalid response from server");
       }
     } catch (err: any) {
       toast.error(err.message || "Login failed");

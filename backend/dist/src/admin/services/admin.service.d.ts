@@ -94,21 +94,21 @@ export declare class AdminService {
     private timeAgo;
     findAllPrograms(): Promise<{
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         name: string;
         description: string;
         targetAmount: number;
         raisedAmount: number;
-        createdAt: Date;
-        updatedAt: Date;
     }[]>;
     createProgram(data: any): Promise<{
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         name: string;
         description: string;
         targetAmount: number;
         raisedAmount: number;
-        createdAt: Date;
-        updatedAt: Date;
     }>;
     getStats(range?: string, state?: string | null): Promise<{
         totalDonations: any;

@@ -57,6 +57,8 @@ let AuthController = class AuthController {
         }
         const dbAdminResult = await this.authService.tryAdminLogin(email, password);
         if (dbAdminResult) {
+            if (dbAdminResult.error)
+                throw new common_1.UnauthorizedException(dbAdminResult.error);
             if (dbAdminResult.token) {
                 res.cookie('auth_token', dbAdminResult.token, {
                     httpOnly: true,
@@ -69,6 +71,8 @@ let AuthController = class AuthController {
         }
         const orgResult = await this.authService.tryCampOrganizerLogin(email, password);
         if (orgResult) {
+            if (orgResult.error)
+                throw new common_1.UnauthorizedException(orgResult.error);
             if (orgResult.token) {
                 res.cookie('auth_token', orgResult.token, {
                     httpOnly: true,

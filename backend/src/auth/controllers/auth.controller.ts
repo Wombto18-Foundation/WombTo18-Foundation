@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Res } from '@nestjs/common';
+import { Controller, Post, Body, Res, UnauthorizedException } from '@nestjs/common';
 import { AuthService } from '../services/auth.service';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
 import type { Response } from 'express';
@@ -64,8 +64,9 @@ export class AuthController {
     // 2. Intercept DB admin credentials (STATE_ADMIN)
     const dbAdminResult = await this.authService.tryAdminLogin(email, password);
     if (dbAdminResult) {
+      if (dbAdminResult.error) throw new UnauthorizedException(dbAdminResult.error as string);
       if (dbAdminResult.token) {
-        res.cookie('auth_token', dbAdminResult.token, {
+        res.cookie('auth_token', dbAdminResult.token as string, {
           httpOnly: true,
           secure: process.env.NODE_ENV === 'production',
           sameSite: 'lax',
@@ -78,8 +79,9 @@ export class AuthController {
     // 3. Intercept camp organizer credentials
     const orgResult = await this.authService.tryCampOrganizerLogin(email, password);
     if (orgResult) {
+      if (orgResult.error) throw new UnauthorizedException(orgResult.error as string);
       if (orgResult.token) {
-        res.cookie('auth_token', orgResult.token, {
+        res.cookie('auth_token', orgResult.token as string, {
           httpOnly: true,
           secure: process.env.NODE_ENV === 'production',
           sameSite: 'lax',
