@@ -9,8 +9,8 @@
   "story": {
     "ch1": {
       "heading": "The Problem",
-      "body": "India loses over <strong>800,000 children</strong> every year to causes that are entirely preventable. Millions more fall silently through the gaps — missing vaccines by days, growing up without access to mental health support, attending schools that lack even the most basic health infrastructure.",
-      "highlight": "800,000 children lost every year"
+      "body": "India sees approximately <strong>615,030 under-five deaths per year</strong> (Source: UNICEF) to causes that are entirely preventable. Millions more fall silently through the gaps — missing vaccines by days, growing up without access to mental health support, attending schools that lack even the most basic health infrastructure.",
+      "highlight": "615,030 under-five deaths per year"
     },
     "ch2": {
       "heading": "The Gap",
@@ -24,7 +24,7 @@
     },
     "ch4": {
       "heading": "Today",
-      "body": "WOMBTO18 Foundation operates as India's first integrated child health non-profit platform — uniting <strong>32 services</strong> across pregnancy, infancy, childhood, and adolescence. Delivered through schools, hospitals, and communities. Serving 25 schools today. Scaling to 300.",
+      "body": "WOMBTO18 Foundation operates as one of India's few integrated child health non-profit platforms — uniting <strong>32 services</strong> across pregnancy, infancy, childhood, and adolescence. Delivered through schools, hospitals, and communities. Serving 25 schools today. Scaling to 300.",
       "highlight": "32 services united"
     }
   },
@@ -113,7 +113,7 @@
     "cert4Title": "TechSoup India",
     "cert4Desc": "Verified non-profit for global tech grants.",
     "section8Title": "Section 8 Company",
-    "section8Desc": "Incorporated under the Companies Act 2013. Annually audited & publicly accountable — the strongest legal framework for transparent non-profit governance in India."
+    "section8Desc": "Incorporated under the Companies Act 2013. Annually audited & publicly accountable — one of the most rigorous legal frameworks for non-profit governance in India."
   },
   "advisoryBoard": {
     "badge": "Leadership",

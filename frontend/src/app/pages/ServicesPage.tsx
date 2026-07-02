@@ -319,9 +319,9 @@ function FivePillarsSection() {
         >
           <div className="grid gap-6 md:grid-cols-3 md:items-center">
             {[
-              { value: "25", label: t('fivePillars.stat1') },
-              { value: "32", label: t('fivePillars.stat2') },
-              { value: "Preg-18", label: t('fivePillars.stat3') },
+              { value: t('fivePillars.stat1Value'), label: t('fivePillars.stat1') },
+              { value: t('fivePillars.stat2Value'), label: t('fivePillars.stat2') },
+              { value: t('fivePillars.stat3Value'), label: t('fivePillars.stat3') },
             ].map((stat, index) => (
               <div key={stat.label} className="relative">
                 <p className="text-4xl font-black tracking-tight text-gray-900">{stat.value}</p>
