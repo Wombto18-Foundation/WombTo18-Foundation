@@ -77,10 +77,10 @@ export function BlogPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="text-primary text-sm mb-2" style={{ fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em" }}>Blog & Stories</p>
           <h1 className="text-4xl sm:text-5xl text-gray-900 mb-6" style={{ fontWeight: 800, lineHeight: 1.1 }}>
-            Stories of Hope & Impact
+            Stories of Hope & Progress
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl">
-            Read about the lives we're changing, the research behind our programs, and the communities we serve.
+            Read about the research behind our programs, the communities we hope to serve, and how we're building WombTo18 Foundation.
           </p>
         </div>
       </section>

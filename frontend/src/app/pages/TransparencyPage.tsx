@@ -148,6 +148,10 @@ export function TransparencyPage() {
               </motion.div>
             ))}
           </div>
+          
+          <div className="mt-8 text-center text-sm font-medium text-gray-500 italic max-w-3xl mx-auto px-4">
+            * {t('schedule.note')}
+          </div>
         </div>
       </section>
 

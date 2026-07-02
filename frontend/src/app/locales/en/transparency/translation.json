@@ -9,22 +9,59 @@
     ]
   },
   "schedule": {
-    "badge": "100% Visibility",
+    "badge": "Our Disclosure Commitment",
     "titlePrefix": "Public Disclosure",
     "titleAccent": "Schedule",
     "frequency": "Frequency",
     "access": "Access",
     "items": [
-      { "doc": "Quarterly Impact Report", "freq": "April / July / October / January", "access": "Free download — no login required" },
-      { "doc": "Annual Audited Accounts", "freq": "Every July (for prior FY)", "access": "Free download — no login required" },
-      { "doc": "Fund Utilisation Breakdown", "freq": "Monthly update", "access": "Public dashboard + donor portal" },
-      { "doc": "Board Meeting Summaries", "freq": "Within 30 days of each meeting", "access": "PDF download — public page" },
-      { "doc": "80G Registration Certificate", "freq": "Permanent (updated if reissued)", "access": "Transparency Centre download" },
-      { "doc": "12A Certificate", "freq": "Permanent", "access": "Transparency Centre download" },
-      { "doc": "TechSoup Certificates", "freq": "Permanent", "access": "Transparency Centre download" },
-      { "doc": "Programme Targets vs Actuals", "freq": "Quarterly", "access": "Live public dashboard" },
-      { "doc": "Donor Honour Board", "freq": "Monthly refresh", "access": "Public dashboard" }
-    ]
+      {
+        "doc": "Quarterly Impact Report",
+        "freq": "April / July / October / January",
+        "access": "Free download — no login required"
+      },
+      {
+        "doc": "Annual Audited Accounts",
+        "freq": "Every July (for prior FY)",
+        "access": "Free download — no login required"
+      },
+      {
+        "doc": "Fund Utilisation Breakdown",
+        "freq": "Monthly update",
+        "access": "Dashboard launching Q4 2026"
+      },
+      {
+        "doc": "Board Meeting Summaries",
+        "freq": "Within 30 days of each meeting",
+        "access": "PDF download — public page"
+      },
+      {
+        "doc": "80G Registration Certificate",
+        "freq": "Permanent (updated if reissued)",
+        "access": "Transparency Centre download"
+      },
+      {
+        "doc": "12A Certificate",
+        "freq": "Permanent",
+        "access": "Transparency Centre download"
+      },
+      {
+        "doc": "TechSoup Certificates",
+        "freq": "Permanent",
+        "access": "Transparency Centre download"
+      },
+      {
+        "doc": "Programme Targets vs Actuals",
+        "freq": "Quarterly",
+        "access": "Dashboard launching Q4 2026"
+      },
+      {
+        "doc": "Donor Honour Board",
+        "freq": "Monthly refresh",
+        "access": "Planned feature (pending donor opt-in)"
+      }
+    ],
+    "note": "As a newly registered foundation, our first audited accounts will be published following our first complete financial year."
   },
   "wallets": {
     "badge": "How Donor Funds Are Protected",
@@ -35,7 +72,7 @@
       "(ring-fenced wallets)",
       " maintained at the Foundation’s bank. Funds donated for a specific programme — for example, ‘Vaccine Reminders’ — are legally and operationally separated from the general corpus and can only be released for that designated purpose."
     ],
-    "p2": "This architecture is disclosed to donors at the point of giving, published in our quarterly reports, and verified annually by our statutory auditor.",
+    "p2": "This architecture is disclosed to donors at the point of giving, published in our quarterly reports, and will be verified annually by our statutory auditor going forward.",
     "p3": [
       "Undisbursed programme funds at year-end are carried forward and ring-fenced for the following year. ",
       "No surplus is absorbed into administration",
@@ -44,13 +81,13 @@
   },
   "pledges": {
     "title": "The Accountability Pledge",
-    "subtitle": "Seven binding commitments we make to every donor.",
+    "subtitle": "Seven commitments we are building our operations around, for every donor.",
     "pledgeLabel": "Pledge",
     "items": [
-      "We will never spend more than 30% of total donations on administrative, technology, and overhead costs combined.",
+      "We aim to keep administrative, technology, and overhead costs at or below 30% of total donations.",
       "We will publish audited accounts within 90 days of each financial year end.",
       "We will publish every Board resolution summary within 30 days of each meeting.",
-      "We will issue 80G certificates automatically within 2 minutes — no requests, no delays, no exceptions.",
+      "We aim to issue 80G certificates automatically, typically within minutes of your donation.",
       "We will respond to every donor query within 48 working hours.",
       "We will publicly acknowledge, in writing, when we fail to meet any programme target — along with an explanation and a corrective plan.",
       "We will never redirect designated programme funds to general operations without donor notification."

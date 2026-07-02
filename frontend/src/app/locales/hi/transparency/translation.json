@@ -9,22 +9,59 @@
     ]
   },
   "schedule": {
-    "badge": "100% Visibility",
+    "badge": "हमारी प्रकटीकरण प्रतिबद्धता",
     "titlePrefix": "Public Disclosure",
     "titleAccent": "Schedule",
     "frequency": "Frequency",
     "access": "Access",
     "items": [
-      { "doc": "Quarterly Impact Report", "freq": "April / July / October / January", "access": "Free download — no login required" },
-      { "doc": "Annual Audited Accounts", "freq": "Every July (for prior FY)", "access": "Free download — no login required" },
-      { "doc": "Fund Utilisation Breakdown", "freq": "Monthly update", "access": "Public dashboard + donor portal" },
-      { "doc": "Board Meeting Summaries", "freq": "Within 30 days of each meeting", "access": "PDF download — public page" },
-      { "doc": "80G Registration Certificate", "freq": "Permanent (updated if reissued)", "access": "Transparency Centre download" },
-      { "doc": "12A Certificate", "freq": "Permanent", "access": "Transparency Centre download" },
-      { "doc": "DPIIT / TechSoup Certificates", "freq": "Permanent", "access": "Transparency Centre download" },
-      { "doc": "Programme Targets vs Actuals", "freq": "Quarterly", "access": "Live public dashboard" },
-      { "doc": "Donor Honour Board", "freq": "Monthly refresh", "access": "Public dashboard" }
-    ]
+      {
+        "doc": "Quarterly Impact Report",
+        "freq": "April / July / October / January",
+        "access": "Free download — no login required"
+      },
+      {
+        "doc": "Annual Audited Accounts",
+        "freq": "Every July (for prior FY)",
+        "access": "Free download — no login required"
+      },
+      {
+        "doc": "Fund Utilisation Breakdown",
+        "freq": "Monthly update",
+        "access": "डैशबोर्ड Q4 2026 में लॉन्च हो रहा है"
+      },
+      {
+        "doc": "Board Meeting Summaries",
+        "freq": "Within 30 days of each meeting",
+        "access": "PDF download — public page"
+      },
+      {
+        "doc": "80G Registration Certificate",
+        "freq": "Permanent (updated if reissued)",
+        "access": "Transparency Centre download"
+      },
+      {
+        "doc": "12A Certificate",
+        "freq": "Permanent",
+        "access": "Transparency Centre download"
+      },
+      {
+        "doc": "DPIIT / TechSoup Certificates",
+        "freq": "Permanent",
+        "access": "Transparency Centre download"
+      },
+      {
+        "doc": "Programme Targets vs Actuals",
+        "freq": "Quarterly",
+        "access": "डैशबोर्ड Q4 2026 में लॉन्च हो रहा है"
+      },
+      {
+        "doc": "Donor Honour Board",
+        "freq": "Monthly refresh",
+        "access": "नियोजित सुविधा (दाता की सहमति लंबित)"
+      }
+    ],
+    "note": "एक नव-पंजीकृत फाउंडेशन के रूप में, हमारे पहले पूर्ण वित्तीय वर्ष के बाद हमारे पहले ऑडिट किए गए खाते प्रकाशित किए जाएंगे।"
   },
   "wallets": {
     "badge": "How Donor Funds Are Protected",
@@ -35,7 +72,7 @@
       "(ring-fenced wallets)",
       " maintained at the Foundation’s bank. Funds donated for a specific programme — for example, ‘Vaccine Reminders’ — are legally and operationally separated from the general corpus and can only be released for that designated purpose."
     ],
-    "p2": "This architecture is disclosed to donors at the point of giving, published in our quarterly reports, and verified annually by our statutory auditor.",
+    "p2": "यह आर्किटेक्चर दान दाताओं को दान देने के समय बताया जाता है, हमारी त्रैमासिक रिपोर्टों में प्रकाशित किया जाता है, और आगे से हमारे वैधानिक ऑडिटर द्वारा प्रतिवर्ष सत्यापित किया जाएगा।",
     "p3": [
       "Undisbursed programme funds at year-end are carried forward and ring-fenced for the following year. ",
       "No surplus is absorbed into administration",
@@ -44,13 +81,13 @@
   },
   "pledges": {
     "title": "The Accountability Pledge",
-    "subtitle": "Seven binding commitments we make to every donor.",
+    "subtitle": "सात प्रतिबद्धताएं जिनके इर्द-गिर्द हम अपने कार्यों का निर्माण कर रहे हैं, प्रत्येक दाता के लिए।",
     "pledgeLabel": "Pledge",
     "items": [
-      "We will never spend more than 30% of total donations on administrative, technology, and overhead costs combined.",
+      "हमारा लक्ष्य प्रशासनिक, प्रौद्योगिकी और ओवरहेड लागत को कुल दान के 30% या उससे कम पर रखना है।",
       "We will publish audited accounts within 90 days of each financial year end.",
       "We will publish every Board resolution summary within 30 days of each meeting.",
-      "We will issue 80G certificates automatically within 2 minutes — no requests, no delays, no exceptions.",
+      "हमारा लक्ष्य 80G प्रमाणपत्र स्वचालित रूप से जारी करना है, आमतौर पर आपके दान के कुछ ही मिनटों के भीतर।",
       "We will respond to every donor query within 48 working hours.",
       "We will publicly acknowledge, in writing, when we fail to meet any programme target — along with an explanation and a corrective plan.",
       "We will never redirect designated programme funds to general operations without donor notification."
