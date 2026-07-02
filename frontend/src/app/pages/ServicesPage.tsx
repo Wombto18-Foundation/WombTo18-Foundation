@@ -317,18 +317,10 @@ function FivePillarsSection() {
           transition={{ duration: 0.75, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="mt-12 rounded-[2rem] border border-white/70 bg-white/70 px-6 py-6 shadow-[0_18px_45px_-22px_rgba(0,0,0,0.12)] backdrop-blur-md sm:px-8"
         >
-          <div className="grid gap-6 md:grid-cols-3 md:items-center">
-            {[
-              { value: t('fivePillars.stat1Value'), label: t('fivePillars.stat1') },
-              { value: t('fivePillars.stat2Value'), label: t('fivePillars.stat2') },
-              { value: t('fivePillars.stat3Value'), label: t('fivePillars.stat3') },
-            ].map((stat, index) => (
-              <div key={stat.label} className="relative">
-                <p className="text-4xl font-black tracking-tight text-gray-900">{stat.value}</p>
-                <p className="mt-1 text-sm font-semibold text-gray-500">{stat.label}</p>
-                {index < 2 && <div className="absolute right-0 top-1/2 hidden h-10 w-px -translate-y-1/2 bg-gradient-to-b from-transparent via-[#dcd6ca] to-transparent md:block" />}
-              </div>
-            ))}
+          <div className="flex items-center">
+            <h3 className="text-2xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--womb-forest)] via-[var(--journey-saffron)] to-[var(--future-sky)] sm:text-3xl">
+              {t('fivePillars.journeyStatement')}
+            </h3>
           </div>
           <div className="mt-6 border-t border-[#ece5d8] pt-6">
             <p className="max-w-3xl text-lg leading-relaxed text-gray-600">
@@ -679,6 +671,9 @@ export function ServicesPage() {
               {t('careContinuum.badge')}
             </p>
             <h2 className="text-[2.2rem] sm:text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 sm:mb-6 drop-shadow-sm tracking-tight leading-[0.95]">{t('careContinuum.title')}</h2>
+            <p className="text-sm font-medium text-gray-500 max-w-3xl mx-auto mb-3 whitespace-pre-line">
+              {t('careContinuum.seoIntro')}
+            </p>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               {t('careContinuum.desc1')}<strong className="text-gray-900 font-bold bg-indigo-50 px-1 rounded">{t('careContinuum.descStrong')}</strong>{t('careContinuum.desc2')}
             </p>

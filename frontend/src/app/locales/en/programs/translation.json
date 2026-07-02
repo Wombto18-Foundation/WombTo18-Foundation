@@ -8,98 +8,143 @@
     {
       "title": "Prenatal & Maternal Care",
       "age": "Pre-birth",
-      "status": "Active",
+      "status": "Launching Soon",
       "description": "Comprehensive healthcare for expectant mothers including regular check-ups, nutrition counseling, birth preparedness, and postpartum support.",
       "target2026": "Open for Donations",
-      "features": ["Regular health check-ups", "Nutrition supplements", "Birth preparedness classes", "Postpartum counseling"],
+      "features": [
+        "Regular health check-ups",
+        "Nutrition supplements",
+        "Birth preparedness classes",
+        "Postpartum counseling"
+      ],
       "category": "Health"
     },
     {
       "title": "Early Childhood Development",
       "age": "0-5 years",
-      "status": "Active",
+      "status": "Launching Soon",
       "description": "Immunization drives, developmental screenings, growth monitoring, and early stimulation programs for infants and toddlers.",
       "target2026": "Open for Donations",
-      "features": ["Immunization tracking", "Developmental milestones", "Growth monitoring", "Parent education"],
+      "features": [
+        "Immunization tracking",
+        "Developmental milestones",
+        "Growth monitoring",
+        "Parent education"
+      ],
       "category": "Health"
     },
     {
       "title": "Nutrition Programs",
       "age": "0-18 years",
-      "status": "Active",
+      "status": "Launching Soon",
       "description": "Mid-day meal programs, nutrition supplements, awareness campaigns, and kitchen gardens to combat malnutrition at every stage.",
       "target2026": "Open for Donations",
-      "features": ["Mid-day meals", "Micronutrient supplements", "Community kitchens", "Nutrition awareness"],
+      "features": [
+        "Mid-day meals",
+        "Micronutrient supplements",
+        "Community kitchens",
+        "Nutrition awareness"
+      ],
       "category": "Nutrition"
     },
     {
       "title": "Education Support",
       "age": "6-18 years",
-      "status": "Active",
+      "status": "Launching Soon",
       "description": "Scholarships, school supplies, after-school tutoring, digital literacy, and career guidance for school-age children.",
       "target2026": "Open for Donations",
-      "features": ["Scholarships", "Digital literacy", "After-school tutoring", "Career guidance"],
+      "features": [
+        "Scholarships",
+        "Digital literacy",
+        "After-school tutoring",
+        "Career guidance"
+      ],
       "category": "Education"
     },
     {
       "title": "Youth Empowerment",
       "age": "14-18 years",
-      "status": "Active",
+      "status": "Launching Soon",
       "description": "Skill development, mentorship, leadership training, and career counseling to prepare teenagers for independent adult life.",
       "target2026": "Open for Donations",
-      "features": ["Skill development", "Mentorship", "Leadership programs", "Internship placements"],
+      "features": [
+        "Skill development",
+        "Mentorship",
+        "Leadership programs",
+        "Internship placements"
+      ],
       "category": "Community"
     },
     {
       "title": "Child Protection",
       "age": "0-18 years",
-      "status": "Active",
+      "status": "Launching Soon",
       "description": "Advocacy, community awareness, helplines, and support systems to protect children from abuse, exploitation, and trafficking.",
       "target2026": "Open for Donations",
-      "features": ["Helpline services", "Community awareness", "Legal support", "Rehabilitation"],
+      "features": [
+        "Helpline services",
+        "Community awareness",
+        "Legal support",
+        "Rehabilitation"
+      ],
       "category": "Community"
     }
   ],
   "carePillarsData": [
     {
       "title": "Maternal & Early Care",
-      "points": ["Prenatal support", "Safe delivery prep", "Early nutrition"]
+      "points": [
+        "Prenatal support",
+        "Safe delivery prep",
+        "Early nutrition"
+      ]
     },
     {
       "title": "Preventive Healthcare",
-      "points": ["Vaccination", "Screenings", "Growth tracking"]
+      "points": [
+        "Vaccination",
+        "Screenings",
+        "Growth tracking"
+      ]
     },
     {
       "title": "Mental Wellness",
-      "points": ["Emotional development", "Counselling", "School readiness"]
+      "points": [
+        "Emotional development",
+        "Counselling",
+        "School readiness"
+      ]
     },
     {
       "title": "School Health Systems",
-      "points": ["Health programmes", "WASH", "Emergency readiness"]
+      "points": [
+        "Health programmes",
+        "WASH",
+        "Emergency readiness"
+      ]
     },
     {
       "title": "Green Cohort",
-      "points": ["Tree per child", "Climate awareness", "Carbon-neutral future"]
+      "points": [
+        "Tree per child",
+        "Climate awareness",
+        "Carbon-neutral future"
+      ]
     }
   ],
   "fivePillars": {
     "badge": "Our Five Pillars",
     "title1": "One Platform.",
     "title2": "Five Dimensions of Care.",
-    "desc1": "WOMBTO18 Foundation operates as an integrated child health non-profit platform - uniting ",
-    "descStrong1": "multiple programmes",
-    "desc2": " across five pillars, delivered through schools, hospitals, and communities. Serving ",
-    "descStrong2": "partner schools",
-    "desc3": ".",
+    "desc1": "WombTo18 Foundation is building an integrated approach to child health and wellbeing — uniting ",
+    "descStrong1": "five focus areas",
+    "desc2": " delivered through schools, hospitals, and communities.",
+    "descStrong2": "",
+    "desc3": "",
     "pillarLabel": "Pillar",
-    "stat1Value": "Active",
-    "stat1": "Partner Schools",
-    "stat2Value": "Holistic",
-    "stat2": "Core Programmes",
-    "stat3Value": "Preg-18",
-    "stat3": "Full lifecycle",
-    "bottomDesc1": "An integrated child health platform",
-    "bottomDesc2": " - from the moment of conception through adolescence, designed as connected infrastructure rather than isolated interventions."
+    "journeyStatement": "Designed to support the full journey from pregnancy through age 18.",
+    "bottomDesc1": "A platform designed to support children",
+    "bottomDesc2": " from before birth through adolescence, built as connected infrastructure rather than isolated interventions."
   },
   "upcomingCamps": {
     "badge": "Impact Opportunities",
@@ -139,7 +184,6 @@
     "desc1": "From the very first day to young adulthood, we ensure no critical health milestone is missed through our ",
     "descStrong": "integrated multi-stage approach",
     "desc2": ".",
-    
     "stage1": {
       "badge": "0 - 18 Months",
       "title": "Foundation of Life",
@@ -165,18 +209,19 @@
       "age1318Badge": "13 - 18 yrs",
       "age1318Title": "Identity formation, digital wellness, career anxiety",
       "age1318Desc": "School counsellor training, peer mentor programme, parent sessions"
-    }
+    },
+    "seoIntro": "Our care continuum follows India's child immunization schedule and developmental milestones\nfrom birth to adulthood."
   },
   "flagship": {
     "badge": "Flagship Initiatives",
     "title1": "Transforming ",
     "title2": "Health & Immunity.",
-    "desc": "Our award-winning programs designed to deliver comprehensive healthcare inside schools and ensure zero missed vaccinations across communities.",
+    "desc": "Programs designed to bring comprehensive healthcare into schools and help reduce missed vaccinations across communities.",
     "integratedSchoolHealth": {
       "title1": "Integrated ",
       "title2": "School Health",
       "badge": "Flagship Programme",
-      "desc": "India's first integrated school health delivery model, designed for phased expansion across partner schools. Covering physical, mental, dental, nutritional, and environmental wellness across the entire school year.",
+      "desc": "An integrated school health delivery model, designed for phased expansion across partner schools. Covering physical, mental, dental, nutritional, and environmental wellness across the entire school year.",
       "items": [
         "School Health Coordinator",
         "Live Wellness Dashboard",
@@ -205,8 +250,8 @@
       "title1": "Vaccine Reminder",
       "title2": " Programme",
       "desc1": "For every scheduled vaccine in a child's immunisation calendar (National Immunisation Schedule + IAP + ACVIP guidelines), parents receive ",
-      "descStrong": "9 reminders across 3 channels",
-      "desc2": " ensuring no critical dose is missed.",
+      "descStrong": "reminders across SMS, WhatsApp, and email",
+      "desc2": ", designed to help reduce missed vaccine doses.",
       "remindersCount": "3 Reminders",
       "timeline": {
         "before": "2 days before due date",
@@ -245,18 +290,39 @@
       }
     ],
     "heroes": {
-      "title": "Delivered by Real Heroes",
+      "title": "Training Aligned With Standards Set By",
       "badge": "On Campus Training",
       "partners": [
-        { "name": "NDRF Teams", "role": "National Disaster Response Force" },
-        { "name": "Ex-Armed Forces Officers", "role": "Defence & Strategic Operations" },
-        { "name": "Fire Officers", "role": "Fire Safety & Evacuation" },
-        { "name": "Civil Authorities", "role": "District Administration" }
+        {
+          "name": "NDRF Teams",
+          "role": "National Disaster Response Force"
+        },
+        {
+          "name": "Ex-Armed Forces Officers",
+          "role": "Defence & Strategic Operations"
+        },
+        {
+          "name": "Fire Officers",
+          "role": "Fire Safety & Evacuation"
+        },
+        {
+          "name": "Civil Authorities",
+          "role": "District Administration"
+        }
       ],
       "stats": [
-        { "title": "Scalable", "label": "Architecture" },
-        { "title": "NDMA", "label": "Aligned" },
-        { "title": "Holistic", "label": "Safety" }
+        {
+          "title": "Scalable",
+          "label": "Architecture"
+        },
+        {
+          "title": "NDMA",
+          "label": "Aligned"
+        },
+        {
+          "title": "Holistic",
+          "label": "Safety"
+        }
       ]
     }
   },
@@ -264,8 +330,8 @@
     "badge": "SDG 13: CLIMATE ACTION",
     "title1": "Green Cohort & ",
     "title2": "Emergency Safe-Zones",
-    "desc1": "Health and climate are inextricably linked. Our Go Green Initiative trains rural communities in disaster preparedness while planting trees to offset carbon footprints, creating India's first ",
-    "descStrong": "Carbon-Neutral Child Cohort",
+    "desc1": "Health and climate are inextricably linked. Our Go Green Initiative trains rural communities in disaster preparedness while planting trees to offset carbon footprints, ",
+    "descStrong": "working toward a carbon-conscious model for child health programs",
     "desc2": ".",
     "features": [
       {

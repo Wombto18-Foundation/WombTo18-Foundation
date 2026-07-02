@@ -21,7 +21,7 @@ const schoolReceives = [
 const whyPartner = [
   "Aligned with NEP 2020, UN SDGs, and Green School mandates",
   "Enhances school reputation, parent trust, and CSR visibility",
-  "Part of India's first Carbon-Neutral Child Cohort",
+  "Part of a carbon-conscious model for child health programs",
   "Opportunity to participate in Guinness World Record campaign",
   "School featured on WOMBTO18's national partner dashboard",
   "Certificates of Partnership issued to school and staff",

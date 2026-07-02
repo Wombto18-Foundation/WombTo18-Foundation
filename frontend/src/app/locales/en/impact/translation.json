@@ -1,9 +1,9 @@
 {
   "hero": {
     "badge": "Projecting the Future",
-    "titlePrefix": "A Roadmap to",
-    "titleAccent": "Transformative Scale",
-    "subtitle": "Our vision is massive, and we are laying down the exact financial and structural framework needed to achieve it. Here is our rigorous blueprint for long-term growth and accountability.",
+    "titlePrefix": "Our Plan for",
+    "titleAccent": "Long-Term Impact",
+    "subtitle": "We are building the financial and structural framework needed to grow responsibly and transparently.",
     "primaryCta": "Strategic Plan 2026-2030",
     "primaryToastTitle": "Download started",
     "primaryToastDescription": "Downloading Strategic Plan 2026-2030",
@@ -13,18 +13,18 @@
   },
   "sdg": {
     "title": "Aligned with Global Goals",
-    "subtitle": "Our grassroots execution directly contributes to three core United Nations Sustainable Development Goals, driving systemic change.",
+    "subtitle": "Our programs are designed around three core United Nations Sustainable Development Goals.",
     "cards": [
       {
         "id": "3",
         "title": "Good Health & Well-being",
         "desc": "Ensuring healthy lives and promoting well-being for all ages through practical, community-led interventions.",
         "points": [
-          "Children vaccinated on schedule",
-          "Maternal health reminders delivered",
-          "Mental wellness sessions conducted",
-          "Emergency preparedness trainings run",
-          "Health screenings completed in schools"
+          "Vaccination tracking",
+          "Maternal health reminders",
+          "Mental wellness sessions",
+          "Emergency preparedness training",
+          "School health screenings"
         ]
       },
       {
@@ -32,11 +32,11 @@
         "title": "Quality Education",
         "desc": "Strengthening learning environments so children are healthy, supported, and ready to learn.",
         "points": [
-          "Schools operating as Health Promoting Schools",
-          "Teachers trained in wellness delivery",
-          "Student wellness reports generated",
-          "NEP 2020-aligned modules deployed",
-          "Parent education sessions delivered"
+          "Health Promoting School status",
+          "Teacher wellness training",
+          "Student wellness reporting",
+          "NEP 2020 module alignment",
+          "Parent education programs"
         ]
       },
       {
@@ -44,11 +44,11 @@
         "title": "Climate Action",
         "desc": "Embedding environmental stewardship into child and community health through measurable green action.",
         "points": [
-          "Geo-tagged trees planted and maintained",
-          "Carbon offset (kg CO2) tracked per cohort",
-          "Eco-learning sessions in partner schools",
-          "Green Cohort dashboard entries active",
-          "Children enrolled in Carbon-Neutral Cohort"
+          "Geo-tagged tree planting",
+          "Carbon offset tracking",
+          "School eco-learning sessions",
+          "Green Cohort participation",
+          "Carbon-conscious cohort enrollment"
         ]
       }
     ]
@@ -96,13 +96,25 @@
     ]
   },
   "metrics": [
-    { "label": "Funding Target (2030)", "change": "Infrastructure Goal" },
-    { "label": "Projected Cost-Ratio", "change": "Direct to programs" },
-    { "label": "Children (2030 Goal)", "change": "Expansive Reach" },
-    { "label": "Target Cost per Child", "change": "Maximum efficiency" }
+    {
+      "label": "Funding Target (2030)",
+      "change": "Infrastructure Goal"
+    },
+    {
+      "label": "Projected Cost-Ratio",
+      "change": "Direct to programs"
+    },
+    {
+      "label": "Children (2030 Goal)",
+      "change": "Expansive Reach"
+    },
+    {
+      "label": "Target Cost per Child",
+      "change": "Maximum efficiency"
+    }
   ],
   "charts": {
-    "fundUtilizationTitle": "Capped Implementation Costs",
+    "fundUtilizationTitle": "Planned Cost Allocation",
     "fundUtilizationBadge": "Committed limits",
     "fundUtilization": [
       "Direct Programs",
@@ -111,7 +123,7 @@
       "Administration Cap",
       "Fundraising Core"
     ],
-    "expenseBreakdownTitle": "Strict Budgetary Boundaries",
+    "expenseBreakdownTitle": "Budget Categories",
     "expenseBreakdown": [
       "Field Salaries & Medical Staff",
       "Program Delivery Materials",
@@ -124,8 +136,15 @@
     "programSpendTitle": "Phased Scaling Allocation (INR Cr)",
     "programSpendLegendBaseline": "Baseline Foundation",
     "programSpendLegendTarget": "Full Scale Objective",
-    "programSpendPrograms": ["Prenatal", "Early Child", "Nutrition", "Education", "Youth", "Protection"],
-    "growthTitle": "5-Year Exponential Output Scaling",
+    "programSpendPrograms": [
+      "Prenatal",
+      "Early Child",
+      "Nutrition",
+      "Education",
+      "Youth",
+      "Protection"
+    ],
+    "growthTitle": "5-Year Outreach Projection",
     "growthSeries": {
       "children": "Children",
       "mothers": "Mothers",
@@ -134,20 +153,38 @@
   },
   "programProgress": {
     "title": "Program Outreach Framework",
-    "subtitle": "Our financial commitments mapped against exact outreach targets to guarantee efficiency.",
+    "subtitle": "Our funding goals mapped against planned outreach for each program area.",
     "seedPhase": "Seed Phase - Preparing to scale",
     "items": [
-      { "program": "Prenatal & Maternal Care", "beneficiaries": "Target: Scaling phased" },
-      { "program": "Early Childhood Development", "beneficiaries": "Target: Scaling phased" },
-      { "program": "Nutrition Programs", "beneficiaries": "Target: Scaling phased" },
-      { "program": "Education Support", "beneficiaries": "Target: Scaling phased" },
-      { "program": "Youth Empowerment", "beneficiaries": "Target: Scaling phased" },
-      { "program": "Child Protection", "beneficiaries": "Target: Scaling phased" }
+      {
+        "program": "Prenatal & Maternal Care",
+        "beneficiaries": "Target: Scaling phased"
+      },
+      {
+        "program": "Early Childhood Development",
+        "beneficiaries": "Target: Scaling phased"
+      },
+      {
+        "program": "Nutrition Programs",
+        "beneficiaries": "Target: Scaling phased"
+      },
+      {
+        "program": "Education Support",
+        "beneficiaries": "Target: Scaling phased"
+      },
+      {
+        "program": "Youth Empowerment",
+        "beneficiaries": "Target: Scaling phased"
+      },
+      {
+        "program": "Child Protection",
+        "beneficiaries": "Target: Scaling phased"
+      }
     ]
   },
   "outcomes": {
     "title": "Strategic Key Performance Indicators (KPIs)",
-    "subtitle": "The strict milestones we will hold ourselves to, with zero compromise.",
+    "subtitle": "Goals we are working toward as our programs grow.",
     "items": [
       {
         "metric": "Infant Mortality Target",
@@ -158,8 +195,8 @@
         "detail": "Targeting 100% enrollment for program cohort"
       },
       {
-        "metric": "Zero Malnutrition Goal",
-        "detail": "Setting benchmark at 100% children meeting healthy growth points"
+        "metric": "Nutrition Goal",
+        "detail": "Working toward improved growth outcomes for children in our programs"
       },
       {
         "metric": "Complete Immunization",
@@ -172,8 +209,13 @@
     ]
   },
   "trust": {
-    "title": "Verified & Audited",
-    "subtitle": "Our financials are independently audited annually. We maintain the highest standards of nonprofit accountability.",
-    "badges": ["80G Certified", "12A Registered", "GuideStar Platinum", "NITI Aayog Listed"]
+    "title": "Committed to Transparency",
+    "subtitle": "We are committed to financial transparency and will publish independently audited accounts as our annual reporting cycle begins.",
+    "badges": [
+      "80G Certified",
+      "12A Registered",
+      "NGO Darpan Registered",
+      "TechSoup Verified"
+    ]
   }
 }

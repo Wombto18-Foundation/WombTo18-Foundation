@@ -299,11 +299,7 @@ export function ImpactPage() {
                 <FileText className="h-5 w-5 mr-3 group-hover:text-white transition-colors" /> {content.hero.secondaryCta}
               </Button>
             </div>
-            {currentLanguage !== "en" && (
-              <p className="mt-4 text-sm font-medium text-slate-500">
-                Live translation active: {currentLanguage.toUpperCase()}
-              </p>
-            )}
+
           </motion.div>
         </div>
       </section>
@@ -504,6 +500,11 @@ export function ImpactPage() {
       <section className="py-10 relative overflow-hidden bg-[#f8fcf9] border-y border-[#1D6E3F]/10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-white/80 via-transparent to-transparent opacity-80" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-8">
+            <span className="inline-block px-4 py-1.5 bg-gray-100 text-gray-500 text-xs font-bold uppercase tracking-widest rounded-full border border-gray-200 shadow-sm">
+              Long-Term Ambition (subject to funding and partnerships)
+            </span>
+          </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {[
               { icon: IndianRupee, label: content.metrics[0].label, to: 500, prefix: "₹", suffix: " Cr", decimals: 0, change: content.metrics[0].change, color: "text-[#1D6E3F]" },

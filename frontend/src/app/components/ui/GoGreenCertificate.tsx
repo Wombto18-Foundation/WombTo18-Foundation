@@ -53,7 +53,7 @@ export function GoGreenCertificate() {
             Go Green Initiative
           </h2>
           <p className="text-gray-600 italic mt-6 max-w-md mx-auto text-lg leading-relaxed">
-            Proudly presented to <span className="font-bold text-gray-900 border-b-2 border-[#a7e8c3]">Our Donor Partners</span> for outstanding contribution to the Carbon-Neutral Child Cohort, pledging 100+ trees in rural India.
+            Proudly presented to <span className="font-bold text-gray-900 border-b-2 border-[#a7e8c3]">Our Donor Partners</span> for outstanding contribution to the carbon-conscious model for child health programs, pledging 100+ trees in rural India.
           </p>
         </div>
 
